@@ -1,0 +1,56 @@
+.bannerContainer{
+display: flex;
+margin-left: 120px;
+position: relative;
+align-items: center;
+
+
+
+}
+
+.bannerTextContainer{
+display: flex;
+justify-content: start;
+flex-direction: column;
+height: 409px;
+
+}
+
+.bannerText1{
+line-height: 2rem;
+color: var( --dark-green-text-color);
+    
+}
+.bannerText2Container{
+display: flex;
+flex-direction: column;
+text-align: start;
+max-width: 580px;
+width: 100%;
+
+
+}
+.bannerText2{
+    font-family: var(--title-font);
+   font-size: 5rem;
+    color: var( --dark-green-text-color);
+    font-weight: 800;
+padding-top: 5px;
+padding-bottom: 24px;
+line-height: 6rem;
+width: 100%;
+
+        
+    }
+.span1{
+    color: var(--blue-text-color)
+}
+.span2{
+    color: var( --light-green-text-color)
+}
+
+.bannerPicture {
+    right: 0;
+  position: absolute;
+    z-index: -1; 
+  }

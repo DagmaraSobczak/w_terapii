@@ -1,0 +1,24 @@
+:root {
+  /*background-colors*/
+  --primary-background-color: #FFFFFF;
+
+  /*text colors*/
+  --light-text-color: #FFFFFF;
+  --grey-text-color: #6C6C6C;
+  --dark-green-text-color: #015F10;
+  --light-green-text-color: #2FAC66;
+  --blue-text-color: #6DC8E1;
+
+  /*brand colors*/
+  --green-brand-color: #89C8A6;
+  --blue-brand-color: #96D5EC;
+  --grey-brand-color: #E0E1E2;
+
+  /*colors*/
+  --header-color: #2FAC66;
+
+  /*fonts*/
+  --main-font: 'Spectral', serif;
+  --title-font: 'Urbanist';
+  --second-font: 'Outfit', sans-serif;
+}

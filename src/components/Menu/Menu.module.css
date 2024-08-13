@@ -1,0 +1,51 @@
+.menuContainer{
+    display: flex;
+
+position: relative;
+flex-direction: column;
+gap: 10px;
+height: 382px;
+}
+
+.menuList{
+background-color: var( --header-color);
+margin-left: 197px;
+height: 175px;
+display: flex;
+flex-direction: row;
+gap: 55px;
+justify-content: flex-end;
+}
+.menuUl{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 70px;
+ 
+gap:20px;
+
+
+
+
+
+}
+.menuLi{
+    font-size: 1.5rem; 
+    line-height: 1.75rem; 
+color: var(--light-text-color);
+font-family: var(--second-font);
+flex-shrink: 0;
+white-space: nowrap;
+}
+
+.logo{
+
+    z-index: 1;
+    position: absolute;
+}
+
+.separator{
+height: 7px;
+background-color: var(--blue-text-color);
+margin-left: 197px;
+}
