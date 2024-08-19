@@ -1,7 +1,8 @@
-
+import React from 'react';
 import css from '../Menu/Menu.module.css';
 import logo from '../../assets/images/logo.png';
 import Button from '../Button/Button'; 
+
 const Menu = () => {
     return (
         

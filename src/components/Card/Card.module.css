@@ -1,0 +1,83 @@
+.card {
+    width: 640px;
+    padding-left: 50px;
+    padding-top: 63px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    text-align: center;
+    opacity: 80%;
+   
+}
+
+.svgContainerTop{
+display: flex;
+flex-direction: row;
+gap: 39px;
+padding-left: 22px;
+padding-bottom: 43px;
+
+}
+.iconCircle {
+    width: 59px;
+    height: 59px;
+   
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+   
+}
+
+.cardTitle {
+    font-size: 2rem;
+    color: var(--light-text-color);
+font-weight: 700;
+    font-family: var(--title-font);
+  
+
+}
+
+.cardContent {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: var(--light-text-color);
+    text-align: justify;
+ 
+}
+.svgContainerBottom{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    padding-top: 30px;
+justify-content: left;
+ 
+    
+    }
+
+.cardTagline {
+    font-family: var(--second-font);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--light-text-color);
+    line-height: 1.625rem;
+   
+}
+
+
+.variant1  {
+    background-color: var(--light-green-text-color)
+}
+
+.variant2  {
+    background-color: var(--blue-brand-color);
+}
+
+.variant3 {
+  background-color: var(--grey-brand-color);
+
+}
+
+.variant3Text{
+    color: var(--grey-text-color);  
+}

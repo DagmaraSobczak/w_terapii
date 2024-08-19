@@ -1,6 +1,7 @@
+import React from 'react';
 import Button from '../Button/Button';
-import css from './Banner.module.css';
 import baner from '../../assets/images/baner.jpg';
+import css from '../Banner/Banner.module.css'
 
 const Banner = () => {
     return (
