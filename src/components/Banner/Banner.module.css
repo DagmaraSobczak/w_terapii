@@ -1,56 +1,59 @@
-.bannerContainer{
-display: flex;
-margin-left: 120px;
-position: relative;
-align-items: center;
-
-
-
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 41px;
 }
 
-.bannerTextContainer{
-display: flex;
-justify-content: start;
-flex-direction: column;
-height: 409px;
+.bannerContainer {
+  display: flex;
 
+  align-items: center;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.logoContainer {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 171px;
+  align-items: center;
+  padding-bottom: 180px;
 }
 
-.bannerText1{
-line-height: 2rem;
-color: var( --dark-green-text-color);
-    
-}
-.bannerText2Container{
-display: flex;
-flex-direction: column;
-text-align: start;
-max-width: 580px;
-width: 100%;
-
-
-}
-.bannerText2{
-    font-family: var(--title-font);
-   font-size: 5rem;
-    color: var( --dark-green-text-color);
-    font-weight: 800;
-padding-top: 5px;
-padding-bottom: 24px;
-line-height: 6rem;
-width: 100%;
-
-        
-    }
-.span1{
-    color: var(--blue-text-color)
-}
-.span2{
-    color: var( --light-green-text-color)
+.bannerLogoImg {
+  width: 314px;
+  height: auto;
 }
 
-.bannerPicture {
-    right: 0;
-  position: absolute;
-    z-index: -1; 
-  }
+.bannerBottomContainer {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 439px;
+}
+.bannerTextContainer {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  height: 298px;
+  width: 715px;
+}
+
+.bannerText1 {
+  color: var(--light-green-text-color);
+  font-family: var(--second-font);
+  font-size: 2rem;
+  font-weight: 900;
+  width: 100%;
+}
+
+.bannerText2 {
+  font-family: var(--second-font);
+  font-size: 6.25rem;
+  color: var(--light-green-text-color);
+  font-weight: 900;
+  line-height: 6.875rem;
+}

@@ -1,33 +1,32 @@
-import React from 'react';
-import css from '../Menu/Menu.module.css';
-import logo from '../../assets/images/logo.png';
-import Button from '../Button/Button'; 
+import React from 'react'
+import {Link} from 'react-router-dom'
+import css from '../Menu/Menu.module.css'
+import Section from '../Section/Section'
 
 const Menu = () => {
-    return (
-        
-            <div className={css.menuContainer}>
-                <div className={css.menuList}>
-                    <ul className={css.menuUl}>
-                        <li className={css.menuLi}>Home</li>
-                        <li className={css.menuLi}>Find a Therapist</li>
-                        <li className={css.menuLi}>My Concerns</li>
-                        <li className={css.menuLi}> Register With Us</li>
-                        <li className={css.menuLi}>About Us</li>                      
-                        <li className={css.menuLi}>Contact Us </li>
-                    </ul>
-                    <Button  //onClick={() => navigate('../login')}
-          type="button"
-          variant="login"
-          content="Login">
-                    </Button>
-                 </div>
-
-                <div className={css.separator}></div>        
-                        <img className={css.logo} src={logo} alt="Logo" />
-            </div>
-    
-    );
+  return (
+    <Section sectionClass={css.menu}>
+      <ul className={css.menuUl}>
+        <li className={css.menuLi}>
+          <Link to="/">STRONA GŁÓWNA</Link>
+        </li>
+        <li className={css.menuLi}>
+          <Link to="/webinary-i-filmy">WEBINARY I FILMY</Link>
+        </li>
+        <li className={css.menuLi}>
+          <Link to="/materialy-do-korzystania-w-terapii">
+            MATERIAŁY DO KORZYSTANIA W TERAPII
+          </Link>
+        </li>
+        <li className={css.menuLi}>
+          <Link to="/kontakt">KONTAKT</Link>
+        </li>
+        <li className={css.menuLi}>
+          <Link to="/o-nas">O NAS</Link>
+        </li>
+      </ul>
+    </Section>
+  )
 }
 
-export default Menu;
+export default Menu

@@ -1,0 +1,6 @@
+.bannerPicture {
+  position: absolute;
+  z-index: -1;
+  margin-top: 0;
+  height: 1222px;
+}

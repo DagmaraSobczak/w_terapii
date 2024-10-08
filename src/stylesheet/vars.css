@@ -1,24 +1,28 @@
 :root {
   /*background-colors*/
-  --primary-background-color: #FFFFFF;
+  --primary-background-color: #ffffff;
 
   /*text colors*/
-  --light-text-color: #FFFFFF;
-  --grey-text-color: #6C6C6C;
-  --dark-green-text-color: #015F10;
-  --light-green-text-color: #2FAC66;
-  --blue-text-color: #6DC8E1;
+  --light-text-color: #ffffff;
+  --grey-text-color: #6c6c6c;
+  --dark-green-text-color: #015f10;
+  --light-green-text-color: #2fac66;
+  --blue-text-color: #6dc8e1;
 
   /*brand colors*/
-  --green-brand-color: #89C8A6;
-  --blue-brand-color: #96D5EC;
-  --grey-brand-color: #E0E1E2;
+  --green-brand-color: #89c8a6;
+  --blue-brand-color: #96d5ec;
+  --grey-brand-color: #e0e1e2;
 
   /*colors*/
-  --header-color: #2FAC66;
+  --header-color: #2fac66;
+  --banner-button: #e7eaec57;
+  --banner-button2: #6dc8e1;
+  --login: #1aaed7;
 
   /*fonts*/
   --main-font: 'Spectral', serif;
   --title-font: 'Urbanist';
   --second-font: 'Outfit', sans-serif;
+  --banner-font: 'Playfair Display', serif;
 }

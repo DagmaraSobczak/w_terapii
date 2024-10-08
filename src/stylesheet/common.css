@@ -33,6 +33,11 @@ a {
   text-decoration: none;
 }
 
+a:link,
+a:visited {
+  color: inherit;
+}
+
 img {
   display: block;
   max-width: 100%;

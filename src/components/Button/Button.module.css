@@ -1,29 +1,20 @@
 .button {
-    font-family: var(--second-font);
-        border-radius: 30px;
-   /* position: relative;
+  font-family: var(--second-font);
+  border-radius: 30px;
+  /* position: relative;
   z-index: 1; */
-    height: 60px; 
-    text-align: center;
-    
-  }
-  .login{
-    color: var(--header-color);
-    background-color: var(--primary-background-color);
-    font-weight: 700;
-    font-size: 1.25rem;
-    width: 125px;
-  margin-top: 54px;
-  margin-right: 13px;
-   
-   }  
-   
-   .banner{
-background-color: var(--green-brand-color);
-font-weight: 400;
-font-size: 1.125rem;
-width: 175px;
-line-height: 1.75rem;
-color: var(--light-text-color)
+  height: 60px;
+  text-align: center;
+}
+.login {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  line-height: 3.188rem;
+  color: var(--login);
+}
 
-   }

@@ -1,0 +1,41 @@
+.bannerButton {
+  width: 316px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerButtonTitle {
+  font-family: 'Playfair Display', serif;
+
+  z-index: 2;
+}
+
+.variant1 {
+  color: var(--banner-button2);
+  line-height: 2.5rem;
+  font-size: 1.1rem;
+}
+.variant2 {
+  color: var(--header-color);
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+}
+.bannerButtonImg {
+  width: 315px;
+  height: 204px;
+  position: absolute;
+  z-index: 1;
+}
+
+.variant3 {
+  line-height: 3.188rem;
+  color: var(--login);
+  font-size: 1.25rem;
+}
+
+.bannerButtonImg2 {
+  width: 241px;
+  height: 241px;
+  z-index: 1;
+  position: absolute;
+}
